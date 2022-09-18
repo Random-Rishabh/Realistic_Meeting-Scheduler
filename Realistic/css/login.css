@@ -1,0 +1,53 @@
+* {
+    font-family: cursive;
+    padding: 0%;
+    color: rgb(54, 54, 54);
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    height: 100rem;
+    background: linear-gradient(100deg,blue,red);
+}
+
+.pages {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+#plo{
+    text: 4px;
+    color: aliceblue;
+}
+
+.page {
+    background: linear-gradient(100deg,red,rgb(76, 76, 216));
+    margin-left: 35vw;
+    margin-top: 15px;
+    padding-top: 3vh;
+    /*padding-left: 25px;*/
+    padding-bottom: 20px;
+    width: 30vw;
+    border-radius: 20px;
+    border: 2px solid #2b2b2b;
+}
+
+input {
+    height: 50px;
+    width: 325px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 20px;
+}
+#btn1 {
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #00A3FA;
+    background-color: #00A3FA;
+}

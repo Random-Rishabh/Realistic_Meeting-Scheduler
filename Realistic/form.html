@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Registration Form | CodingLab </title>
+    <link rel="stylesheet" href="./css/registration.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="./js/form.js"></script>
+   </head>
+
+<body>
+  <div class="container">
+    <ion-icon name="chevron-back-circle-outline" onclick="redirect()" ></ion-icon>
+    <div class="title">Event Schedular</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details" id="event_name">Event Name</span>
+            <input type="text" placeholder="Enter Event name" required>
+          </div>
+          <div class="input-box">
+            <span class="details" id="Location">Admin ID</span>
+            <input type="text" placeholder="Enter ID" required>
+          </div>
+          <div class="input-box">
+            <span class="details" id="desc_box">Description</span>
+            <input type="text" placeholder="Qwerty" required>
+          </div>
+          <div class="input-box">
+            <span class="details" id="event_link">Event Link</span>
+            <input type="text" placeholder="https://" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter email" required>
+          </div>
+          <div class="input-box">
+            <span class="details" id="time_duration">Duration</span>
+            <input type="text" placeholder="In Minutes" required>
+          </div>
+        </div>
+        <div class="admin-details">
+          <input type="radio" name="admin" id="dot-1">
+          <input type="radio" name="admin" id="dot-2">
+          <input type="radio" name="admin" id="dot-3">
+          <span class="gender-title">Are you Admin?</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="admin">Yes</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="admin">No</span>
+          </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Save and Click" id="save">
+        </div>
+
+    </form>
+    </div>
+  </div>
+
+</body>
+</html>
